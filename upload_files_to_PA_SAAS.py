@@ -30,7 +30,7 @@ from TM1py.Services import TM1Service
 
 # TM1 connection parameters
 TM1PARAMS = {
-    "base_url": "https://us-east-1.planninganalytics.saas.ibm.com/api/<TenantId>/v0/tm1/<DatabaseName>/",
+    "base_url": "https://eu-central-1.planninganalytics.saas.ibm.com/api/<TenantId>/v0/tm1/<DatabaseName>/",
     "user": "apikey",
     "password": "<TheActualApiKey>",
     "async_requests_mode": True,
